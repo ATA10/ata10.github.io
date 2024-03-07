@@ -1,7 +1,7 @@
 // --------------------------------------- Project List
 export const ProjectList = [
   {
-    img: "/otokumes1.png",
+    img: "%PUBLIC_URL%/projects/otokumes1.png",
     title: "Automatic Chicken Coop",
     description:                  
       "Ensuring automatic operation of the chicken coop" +
@@ -11,7 +11,7 @@ export const ProjectList = [
     demo_url: "",
   },
   {
-    img: "/abs.png",
+    img: "%PUBLIC_URL%/projects/abs.png",
     title: "Smart Building Systems",
     description:
       "It is a technological system that provides automation and control by integrating electronic and mechanical systems within the building.",
@@ -20,7 +20,7 @@ export const ProjectList = [
     demo_url: "",
   },
   {
-    img: "/renr-responsive.png",
+    img: "%PUBLIC_URL%/projects/renr-responsive.png",
     title: "MY Burden",
     description:
       "Provides business process management and vehicle tracking." +
@@ -30,7 +30,7 @@ export const ProjectList = [
     demo_url: "",
   },
   {
-    img: "/pokedex-responsive.png",
+    img: "%PUBLIC_URL%/projects/pokedex-responsive.png",
     title: "Business Management Systems",
     description:
       "Cloud based project, business management system",
@@ -39,7 +39,7 @@ export const ProjectList = [
     demo_url: "",
   },
   {
-    img: "/ida1.png",
+    img: "%PUBLIC_URL%/projects/ida1.png",
     title: "Unmanned Amphibious Vehicle",
     description:
       "It is a vehicle that can travel both on land and in water and is designed to perform various tasks.",
