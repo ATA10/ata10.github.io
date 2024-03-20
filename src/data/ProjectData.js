@@ -30,7 +30,7 @@ export const ProjectList = [
     demo_url: "",
   },
   {
-    img: "/projects/pokedex-responsive.png",
+    img: "/projects/renr-responsive.png",
     title: "Business Management Systems",
     description:
       "Cloud based project, business management system",
