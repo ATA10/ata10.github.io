@@ -1,5 +1,5 @@
 import React from "react";
-import { Nav, Logo, NavLink, Bars, NavMenu, NavBtn } from "./HeaderElements";
+import { Nav, Logo, NavLink, Bars, NavMenu } from "./HeaderElements";
 
 const Header = ({ toggle }) => {
   return (
@@ -22,16 +22,6 @@ const Header = ({ toggle }) => {
             Contact
           </NavLink>
         </NavMenu>
-        <NavBtn>
-          <a
-            className="btn PrimaryBtn"
-            href="https://linkedin.com/" // linkedin
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Resume
-          </a>
-        </NavBtn>
         <Bars onClick={toggle} />
       </Nav>
     </div>
