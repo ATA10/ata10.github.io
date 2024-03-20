@@ -58,7 +58,7 @@ function FixSocialIcon() {
         <ul>
           <li className="item">
             <a
-              href="https://www.linkedin.com/"
+              href="https://www.linkedin.com/in/anil-taha-adak-170197187/"
               target="_blank"
               rel="noopener noreferrer"
             >
