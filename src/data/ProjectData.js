@@ -48,6 +48,15 @@ export const ProjectList = [
     demo_url: "",
   },
   {
+    img: "/projects/elyazisi_proje.png",
+    title: "Handwriting identification with ANN",
+    description:
+      "ANN model that allows it to select the text on the image containing the given handwriting.",
+    tech_stack: ["Python", "Keras"],
+    github_url: "",
+    demo_url: "",
+  },
+  {
     img: "/projects/ida1.png",
     title: "Unmanned Amphibious Vehicle",
     description:
