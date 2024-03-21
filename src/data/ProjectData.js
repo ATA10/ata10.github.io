@@ -11,6 +11,16 @@ export const ProjectList = [
     demo_url: "",
   },
   {
+    img: "/projects/renr-responsive.png",
+    title: "MY-Burden",
+    description:
+      "Provides business process management and vehicle tracking." +
+      "It ensures increased productivity and successful work.",
+    tech_stack: ["NodeJs", "React", "MongoDB", "SocketIo"],
+    github_url: "",
+    demo_url: "",
+  },
+  {
     img: "/projects/abs.png",
     title: "Smart Building Systems",
     description:
@@ -20,12 +30,11 @@ export const ProjectList = [
     demo_url: "",
   },
   {
-    img: "/projects/renr-responsive.png",
-    title: "MY Burden",
+    img: "/projects/ga_proje.png",
+    title: "Creating the ideal route with genetic algorithm ",
     description:
-      "Provides business process management and vehicle tracking." +
-      "It ensures increased productivity and successful work.",
-    tech_stack: ["NodeJs", "React", "MongoDB", "SocketIo"],
+      "To create the most ideal route as the crow flies between selected points on the map",
+    tech_stack: ["Flask", "Python", "Anaconda"],
     github_url: "",
     demo_url: "",
   },
