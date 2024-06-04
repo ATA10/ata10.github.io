@@ -67,10 +67,11 @@ export const ProjectList = [
   },
   {
     img: "/projects/UAV-GPS.png",
-    title: "Unmanned Amphibious Vehicle",
+    title: "UAV Image and GPS Processing",
     description:
-      "It is a vehicle that can travel both on land and in water and is designed to perform various tasks.",
-    tech_stack: ["C++", "C", "STM", "LattePanda"],
+      "Display and tracking of all animals thanks to the Yolo model trained on the UAV image by processing" + 
+      "the coordinate information of the UAV camera and the animals..",
+    tech_stack: ["Pythom", "YOLOv8", "Flask", ""],
     github_url: "",
     demo_url: "",
   },
