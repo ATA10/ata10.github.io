@@ -65,6 +65,15 @@ export const ProjectList = [
     github_url: "",
     demo_url: "",
   },
+  {
+    img: "/projects/UAV-GPS.png",
+    title: "Unmanned Amphibious Vehicle",
+    description:
+      "It is a vehicle that can travel both on land and in water and is designed to perform various tasks.",
+    tech_stack: ["C++", "C", "STM", "LattePanda"],
+    github_url: "",
+    demo_url: "",
+  },
 ];
 
 // --------------------------------------- Skills
