@@ -71,7 +71,7 @@ export const ProjectList = [
     description:
       "Display and tracking of all animals thanks to the Yolo model trained on the UAV image by processing" + 
       "the coordinate information of the UAV camera and the animals..",
-    tech_stack: ["Pythom", "YOLOv8", "Flask", ""],
+    tech_stack: ["Python", "YOLOv8", "Flask", ""],
     github_url: "",
     demo_url: "",
   },
