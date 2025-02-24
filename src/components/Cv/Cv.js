@@ -7,7 +7,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 
 function Contact() {
   const downloadPdf = () => {
-  window.open("https://drive.google.com/uc?export=download&id=1g0osKsS0jmKVZ2uUHRvk8Ww1L1RFs2To", "_blank");
+  window.open("https://drive.google.com/uc?export=download&id=1k5UB_ZIUhp69RqZzWgKftlmDTSax6Kdj", "_blank");
 };
 
   
