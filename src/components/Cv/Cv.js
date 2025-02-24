@@ -10,7 +10,6 @@ function Contact() {
   window.open("https://drive.google.com/uc?export=download&id=1k5UB_ZIUhp69RqZzWgKftlmDTSax6Kdj", "_blank");
 };
 
-  
   return (
     <ContactWrapper id="Cv">
       <div className="Container">
