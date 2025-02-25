@@ -1,56 +1,36 @@
-name: Deploy static content to Pages
+name: Deploy to GitHub Pages
 
 on:
-  # Varsayılan branşa yapılan push'larda çalışır
   push:
-    branches: ["main"]
-  # Workflow'u manuel çalıştırmayı sağlar
-  workflow_dispatch:
+    branches:
+      - main
 
-# GITHUB_TOKEN izinlerini ayarlar
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# Aynı anda yalnızca bir dağıtımın çalışmasını sağlar
-concurrency:
-  group: "pages"
-  cancel-in-progress: true
-
 jobs:
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - name: Set up Node
-        uses: actions/setup-node@v3
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 18
           cache: "npm"
 
       - name: Install dependencies
         run: npm install --force
 
-      - name: Build
+      - name: Build project
         run: npm run build
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v3
-
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: github-pages # Artifact ismini belirtiyoruz
-          path: "./build" # Build çıktılarının bulunduğu dizin
-
       - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v2
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          artifact_name: github-pages # Upload adımındaki isim ile eşleşmeli
+          branch: gh-pages
+          folder: build
