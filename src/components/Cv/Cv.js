@@ -5,9 +5,17 @@ import { IconButton } from "@mui/material";
 
 import ScrollAnimation from "react-animate-on-scroll";
 
+// function Contact() {
+//   const downloadPdf = () => {
+//   window.open("https://drive.google.com/uc?export=download&id=1k5UB_ZIUhp69RqZzWgKftlmDTSax6Kdj", "_blank");
+// };
 function Contact() {
   const downloadPdf = () => {
-  window.open("https://drive.google.com/uc?export=download&id=1k5UB_ZIUhp69RqZzWgKftlmDTSax6Kdj", "_blank");
+    window.open(
+      "https://drive.google.com/uc?export=download&id=1fgo60d53GVL7G3xrpOqxudC-owVtHRmu",
+      "_blank"
+    );
+  };
 };
 
   return (
