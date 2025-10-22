@@ -16,7 +16,6 @@ function Contact() {
       "_blank"
     );
   };
-};
 
   return (
     <ContactWrapper id="Cv">
