@@ -81,6 +81,10 @@ export const ProjectList = [
 
 export const stackList = [
   {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg",
+    name: "Flutter",
+  },
+  {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg",
     name: "HTML",
   },
@@ -185,11 +189,31 @@ export const stackList = [
     name: "OpenCV",
   },
   {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg",
+    name: "PyTorch",
+  },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/scikitlearn/scikitlearn-original.svg",
+    name: "Scikit-learn",
+  },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg",
+    name: "Pandas",
+  },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg",
+    name: "NumPy",
+  },
+  {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/arduino/arduino-original.svg",
     name: "Arduino",
   },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/raspberrypi/raspberrypi-original.svg",
     name: "Raspberry Pi",
+  },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/embeddedc/embeddedc-original.svg",
+    name: "Embedded C",
   },
 ];
