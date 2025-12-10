@@ -398,5 +398,5 @@ export const stackList = [
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/embeddedc/embeddedc-original.svg",
     name: "Embedded C",
-  },
+  }
 ];
